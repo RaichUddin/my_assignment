@@ -1,5 +1,11 @@
 body{
     margin: 0;
+    padding: 0;
+}
+#marquee{
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 800;
 }
 .flex-cont{
     display: flex;
@@ -8,8 +14,13 @@ body{
 h1{
     font-family: sans-serif;
     font-size: 45px;
-    text-align: justify;
     margin-left: 15px;
+    text-align: center;
+}
+#font-view{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
 }
 span{
     color:blue;
@@ -59,10 +70,9 @@ img{
     
 }
 #top-h1{
-    color: blue;
+    color: steelblue;
     font-size: 40px;
     text-align: center;
-    font-style: italic;
 
 }
 #pic-right{
@@ -83,10 +93,14 @@ img{
 
 }
 #font-sm{
-    color: orange;
+    color: tomato;
     font-size: 15px;
-    font-style: italic;
-    font-weight: 600;
+    font-weight: 700;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 300px;
+    margin-right: 300px;
+    
 }
 #text-some{
     font-size: 15px;
@@ -95,10 +109,7 @@ img{
     display: flex;
     position: absolute;
 }
-.header{
-    text-align: center;
-    margin-top: 5px;
-}
+
 
 .recepie-title{
     width: 15%;
